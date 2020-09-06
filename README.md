@@ -20,13 +20,9 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate --seed
 ```
-- 執行 __npm__ 指令的 __install__ 來執行安裝專案引用的依賴套件。
+- 執行安裝 Laravel Mix 引用的依賴項目，並執行所有 Mix 任務。
 ```sh
-$ npm install
-```
-- 執行 __npm__ 指令的 __run__ 來執行開啟開發環境服務。
-```sh
-$ npm run dev
+$ npm install && npm run dev
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/register` 來進行註冊。
